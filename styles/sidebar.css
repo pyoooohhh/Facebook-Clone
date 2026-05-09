@@ -1,0 +1,62 @@
+nav img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 5px;
+    top: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2F4F7;
+}
+
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F2F4F7;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: none;
+    width: 300px;
+
+}
+
+span{
+    padding-right: 150px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #D5D9DC;
+    width: 100%;
+}
+
+.shortcut-box {
+    padding-left: 7px;
+    padding-bottom: 10px;
+    color: #65686C;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+button:hover {
+    background-color: rgb(235,235,235);
+}
+
+
+#last-btn {
+    margin-bottom: 10px;
+}

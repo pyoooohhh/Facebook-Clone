@@ -1,0 +1,9 @@
+footer {
+    color: #65686C;
+    font-size: 13px;
+    position: fixed;
+    left: 5px;
+    bottom: 30px;
+    display: flex;
+    width: 285px;
+}

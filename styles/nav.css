@@ -1,0 +1,58 @@
+nav img {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    border: 1px solid pink;
+    gap: 10px;
+    z-index: 101;
+    padding-top: 15px;
+    font-family: Segoe UI;
+    margin-left: 5px;
+}
+
+
+.side-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px 55px 5px 8px;
+}
+
+
+.side-icon-box {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+.label {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: rgb(8,8,9);
+}
+
+.side-container:hover {
+    background-color: #F0F2F5;
+}
+
+.seemoreid{
+    background-color: F2F4F7;
+}

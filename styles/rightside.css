@@ -1,0 +1,100 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    width: 300px;
+    background-color: #F2F4F7;
+    
+}
+
+aside img {
+    width: 30px;
+    height: 30px;
+}
+
+.sponsor-box{
+    color: #65686C;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ad-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.ad-box{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.ad-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.ad-description-box {
+    margin-left: 5px;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.link {
+    margin-top: 3px;
+    color: #65686C;
+    font-size: 13px;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    font-size: 14px;
+    font-weight: 600;
+     color: #65686C;
+}
+
+.icons-box .search, .minimize {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #D5D9DC;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+
+span {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+button img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

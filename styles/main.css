@@ -1,0 +1,441 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.post-box {
+    width: 530px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.post-box-flex {
+    display: flex;
+}
+
+.post-profile-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.post-profile-pic {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.post-input-box {
+    flex: 1;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-input {
+    width: 330px;
+    background-color:#CFD1D4;
+    color: #65686C;
+    border: none;
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.post-icon-box {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 10px;
+
+}
+
+.video-post, .photo-post, .emoji-post {
+    height: 18px;
+}
+
+
+/* stories section */
+
+.stories-box {
+    width: 530px;
+    display: flex;
+    gap: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    
+}
+
+.create-story-box {
+    width: 100px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.create-story-pic {
+    width: 100px;
+    height: 135px;
+    display: flex;
+}
+
+.profile-story {
+    width: 100px;
+    height: 135px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.account-story-container {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.story-logo-container {
+    height: 40px;
+}
+
+.story-logo {
+    height: 40px;
+}
+.logo-story {
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top:-25px;
+    border-radius: 50%;
+}
+.story-text {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* friends */
+
+.friend-story-box {
+    width: 100px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.fb-friend-image {
+    width: 110px;
+    height: 180px;
+}
+
+.story {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-pp-story {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0866FF;
+    border-radius: 50%;
+    overflow: hidden;
+    top: 8px;
+    left: 5px;
+}
+
+.pp-story {
+    width: 30px;
+    object-fit: cover;
+}
+
+.friend-name-story {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    bottom: 8px;
+    left: 7px;
+}
+
+.move-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    right: 5px;
+    top: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greater-than-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* feed na to */
+.feed-container {
+    margin-top: 10px;
+
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.header-feed-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.profile-feed-box {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.profile-feed {
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #F0F0F0;
+}
+
+.info-container {
+    flex: 1;
+    margin-left: 5px;
+}
+
+
+.info-feed-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.verified-logo {
+    width: 15px;
+}
+
+.connect {
+    color: #65686C;
+    padding: 0;
+}
+
+.verified-box {
+    margin-top: 2px;
+    padding: 0;
+}
+
+.time-feed {
+    font-size: 13px;
+    color: #65686C;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.audience {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-top: 2px;
+}
+
+.button-feed-box {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+.right-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.right-btn:hover {
+    background-color:#bfc3c9;
+}
+
+.minimize-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.close-icon {
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* post section */
+.description-container{
+    margin-bottom: 10px;
+}
+
+.description-post {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.blue-text {
+    font-size: 15px;
+    color: #0064D1;
+    padding: 0;
+}
+
+.post-image-container {
+    width: 530px;
+    height: 480px;
+}
+
+.image-bg-color {
+    background-color: #636363;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#diff-color {
+    background-color:#EBECD0 ;
+}
+
+.post-image-box {
+    height: 480px;
+    
+}
+
+.post-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+
+
+
+/* reaction section*/
+
+.reaction-container {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;  
+}
+
+.reaction-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.like-box {
+    width: 50px;
+    display: flex;
+    gap: 3px;
+}
+
+.reaction-icon {
+    width: 20px;
+}
+
+.counting {
+    font-size: 13px;
+    font-weight: 600;
+    color: #65686C;
+}
+
+/* reaction */
+.emoji-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.emoji-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5px;
+    gap: 5px;
+    position: relative;
+}
+
+.absolute-box {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid white;
+    right: 17px;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.relative-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
